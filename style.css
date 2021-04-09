@@ -1,6 +1,7 @@
-body p{
+body, p{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav{
@@ -24,6 +25,7 @@ main{
     width: 50%;
     margin: 6.9em auto;
     text-align:center;
+    padding-top: 5em;
 }
 input{
     width: 80%;
@@ -41,9 +43,14 @@ input{
 
 footer{
     background-color: rgb(250, 243, 243);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 .footer_top{
     padding: 1em;
+    text-align: center;
 }
 .footer_bottom{
     padding: 1em;
@@ -51,6 +58,7 @@ footer{
     justify-content: space-between;
     border-top: 1px solid grey;
 }
+
 .left a{
     margin-right: 1em;
 }
